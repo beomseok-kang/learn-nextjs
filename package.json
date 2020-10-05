@@ -6,11 +6,17 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 8000",
+    "app": "node app",
+    "server": "node server"
   },
   "author": "effort",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
