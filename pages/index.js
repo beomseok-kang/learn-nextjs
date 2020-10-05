@@ -6,7 +6,7 @@ const Button = ({ onClick }) => (
   <button onClick={onClick}>Get Data From Server</button>
 );
 
-const index = () => {
+const Index = () => {
   const onClick = () => {
     axios.get("http://localhost:8000/getdata").then((res) => {
       console.log(res.data);
@@ -19,9 +19,12 @@ const index = () => {
       <Link href="/hello">
         <a title="hello">Hello Page</a>
       </Link>
+      <Link href="/users">
+        <a title="users">Users Page</a>
+      </Link>
       <Button onClick={onClick} />
     </Layout>
   );
 };
 
-export default index;
+export default Index;
