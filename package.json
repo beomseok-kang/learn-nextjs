@@ -1,0 +1,19 @@
+{
+  "name": "learn-nextjs",
+  "version": "1.0.0",
+  "description": "Learn Next.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "effort",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
+  }
+}
